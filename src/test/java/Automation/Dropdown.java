@@ -13,8 +13,6 @@ import com.microsoft.playwright.options.SelectOption;
 public class Dropdown {
 
 	public static void main(String[] args) throws InterruptedException {
-        
-		
 		Playwright playwright = Playwright.create();
 		LaunchOptions headless = new BrowserType.LaunchOptions().setHeadless(false);
 		Page page = playwright.chromium().launch(headless).newPage();
