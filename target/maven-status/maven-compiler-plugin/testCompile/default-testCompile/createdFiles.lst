@@ -1,6 +1,0 @@
-com/automation/config/ConfigManager.class
-com/automation/runners/TestRunner.class
-com/automation/steps/LoginSteps.class
-com/automation/pages/BasePage.class
-com/automation/driver/DriverManager.class
-com/automation/pages/LoginPage.class

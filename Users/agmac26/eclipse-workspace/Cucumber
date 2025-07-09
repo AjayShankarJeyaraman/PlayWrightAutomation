@@ -1,4 +1,0 @@
-@Given("User navigates to wejha application")
-public void user_navigates_to_wejha_application() {
-    driver.get("https://cms-test.wejha.com/login");
-}
