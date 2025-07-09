@@ -9,6 +9,9 @@ import com.microsoft.playwright.Playwright;
 public class BrowserLaunch {
 public  static void main(String [] args ) {
  
+	
+	
+	
 	Playwright playwright = Playwright.create();
 	
 	Browser browser =playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setChannel("chrome"));
